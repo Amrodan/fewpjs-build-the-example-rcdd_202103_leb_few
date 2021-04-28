@@ -20,12 +20,12 @@ for(let i =0;i<hearts.length;i++){
       document.getElementById('modal-message').innerHTML= error ;
       setTimeout(()=>{
         document.getElementsById('modal').classList.add('hidden');
-      },3000);  
-           
+      },3000);
+
     })
   })
- 
- 
+
+
 // mimicServerCall })
   // function likeCallback(e) {
   //   let heart = e.target;
